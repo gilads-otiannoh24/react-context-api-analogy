@@ -20,7 +20,7 @@ It demonstrates how React internally manages context values, restores them durin
 
 ## Run app
 
-Clone the repo aand then run it using node or any ohter js runtime
+Clone the repo aand then run it using node or any other js runtime
 
 ```bash
 node src/index.js
