@@ -1,0 +1,27 @@
+{
+  "name": "react-context-analogy",
+  "version": "1.0.0",
+  "description": "![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && tsc-esm-fix dist",
+    "start": "node dist/index.js",
+    "dev": "tsc && tsc-esm-fix dist && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilads-otiannoh24/react-context-api-analogy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/gilads-otiannoh24/react-context-api-analogy/issues"
+  },
+  "homepage": "https://github.com/gilads-otiannoh24/react-context-api-analogy#readme",
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "tsc-esm-fix": "^3.1.2"
+  }
+}

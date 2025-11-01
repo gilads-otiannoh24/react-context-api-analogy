@@ -1,4 +1,4 @@
-# Mini React Context — A Tiny Context API Clone in Pure JavaScript
+# Mini React Context — A Tiny Context API Clone
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
@@ -23,7 +23,11 @@ It demonstrates how React internally manages context values, restores them durin
 Clone the repo aand then run it using node or any other js runtime
 
 ```bash
-node src/index.js
+# install dependercies
+npm install
+
+# run app
+npm run dev
 ```
 
 ## 💡 Improvements & Ideas to Try
