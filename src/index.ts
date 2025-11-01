@@ -1,5 +1,5 @@
-import App from "./components/app.js";
-import { render } from "./lib/utils.js";
+import App from "./components/app";
+import { render } from "./lib/utils";
 
 // render the app
 const output = render(App);

@@ -1,13 +1,13 @@
-export interface Context {
-  value: any;
+export interface Context<T> {
+  value: T;
   Provider: ({ value, children }: { value: any; children: () => any }) => any;
   Consumer: ({ children }: { children: Function }) => any;
 }
 
 const contextWindow = new WeakMap();
 
-export function createContext(defaultValue: any): Context {
-  const context: Context = {
+export function createContext<T>(defaultValue: T): Context<T> {
+  const context: Context<T> = {
     value: defaultValue,
     Provider({ value, children }) {},
     Consumer({ children }) {},
@@ -39,6 +39,6 @@ export function createContext(defaultValue: any): Context {
   return context;
 }
 
-export function useContext(context: Context) {
+export function useContext<T>(context: Context<T>) {
   return context.value;
 }
